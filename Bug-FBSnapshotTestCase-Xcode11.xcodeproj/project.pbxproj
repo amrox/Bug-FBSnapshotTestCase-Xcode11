@@ -135,7 +135,6 @@
 				B3913902233406EF00CB2E4C /* Sources */,
 				B3913903233406EF00CB2E4C /* Frameworks */,
 				B3913904233406EF00CB2E4C /* Resources */,
-				B39139132334084600CB2E4C /* Copy Carthage Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,29 +203,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		B39139132334084600CB2E4C /* Copy Carthage Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/FBSnapshotTestCase.framework",
-			);
-			name = "Copy Carthage Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FBSnapShotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#/usr/local/bin/carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B39138E72334063C00CB2E4C /* Sources */ = {
