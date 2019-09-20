@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B373438D23354B77007AC823 /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B373438C23354B77007AC823 /* FBSnapshotTestCase.framework */; };
 		B39138EF2334063C00CB2E4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39138EE2334063C00CB2E4C /* AppDelegate.swift */; };
 		B39138F32334063C00CB2E4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39138F22334063C00CB2E4C /* ViewController.swift */; };
 		B39138F62334063C00CB2E4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39138F42334063C00CB2E4C /* Main.storyboard */; };
 		B39138F82334063D00CB2E4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B39138F72334063D00CB2E4C /* Assets.xcassets */; };
 		B39138FB2334063D00CB2E4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39138F92334063D00CB2E4C /* LaunchScreen.storyboard */; };
 		B3913909233406EF00CB2E4C /* Bug_FBSnapshotTestCase_Xcode11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3913908233406EF00CB2E4C /* Bug_FBSnapshotTestCase_Xcode11Tests.swift */; };
-		B3913912233407C600CB2E4C /* FBSnapshotTestCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3913911233407C600CB2E4C /* FBSnapshotTestCase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B373438C23354B77007AC823 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39138EB2334063C00CB2E4C /* Bug-FBSnapshotTestCase-Xcode11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bug-FBSnapshotTestCase-Xcode11.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39138EE2334063C00CB2E4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B39138F22334063C00CB2E4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		B3913906233406EF00CB2E4C /* Bug-FBSnapshotTestCase-Xcode11Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bug-FBSnapshotTestCase-Xcode11Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3913908233406EF00CB2E4C /* Bug_FBSnapshotTestCase_Xcode11Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bug_FBSnapshotTestCase_Xcode11Tests.swift; sourceTree = "<group>"; };
 		B391390A233406EF00CB2E4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B3913911233407C600CB2E4C /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSnapshotTestCase.framework; path = Carthage/Build/iOS/FBSnapshotTestCase.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3913912233407C600CB2E4C /* FBSnapshotTestCase.framework in Frameworks */,
+				B373438D23354B77007AC823 /* FBSnapshotTestCase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 		B3913910233407C500CB2E4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B3913911233407C600CB2E4C /* FBSnapshotTestCase.framework */,
+				B373438C23354B77007AC823 /* FBSnapshotTestCase.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,7 +224,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n#/usr/local/bin/carthage copy-frameworks\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

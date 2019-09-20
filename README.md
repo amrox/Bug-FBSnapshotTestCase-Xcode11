@@ -15,7 +15,7 @@ Bug-FBSnapshotTestCase-Xcode11.app (19107) encountered an error (Failed to load 
 ## Steps to Reproduce
 
   1. Install Xcode 11 GM 2 (11A420a)
-  1. Install `ios-snapshot-test-case` via `carthage bootstrap`
+  1. Update git submodules
   1. Set up an simulator using iOS **11.4**. FWIW, I used an 'iPhone X' device
   1. Run the tests via Product -> Test or Cmd-U
 
